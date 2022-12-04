@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 //TODO change database according to assigment
-const CONNECTION_STRING = 'mongodb://127.0.0.1:27017/bookingUni'
+const CONNECTION_STRING = 'mongodb://127.0.0.1:27017/carCatalog'
 
 module.exports = async (app) =>{
     try{

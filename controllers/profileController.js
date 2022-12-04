@@ -1,5 +1,5 @@
 const { hasUser } = require('../middlewares/guards');
-const { getByUserBooking } = require('../services/hotelService');
+const { getByUserBooking } = require('../services/carService');
 
 const profileController = require('express').Router();
 

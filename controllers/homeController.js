@@ -1,4 +1,4 @@
-const { getAll } = require('../services/hotelService');
+const { getAll } = require('../services/carService');
 
 const homeController = require('express').Router()
 
